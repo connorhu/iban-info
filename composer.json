@@ -1,8 +1,14 @@
 {
+    "name" : "connorhu/iban-info",
+    "license" : "MIT",
+    "type" : "library",
+    "keywords" : ["iban", "info"],
+    "homepage" : "https://github.com/connorhu/iban-info",
     "autoload": {
         "psr-4": { "Iban\\Info\\": "src/" }
     },
     "require": {
+        "php" : "^8.4 || ^8.5",
         "jschaedl/iban-validation": "^2.7"
     }
 }
