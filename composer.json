@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": { "Iban\\Info\\": "src/" }
+    },
+    "require": {
+        "jschaedl/iban-validation": "^2.7"
+    }
+}
